@@ -8,6 +8,7 @@
 
   <!-- Site Properties -->
   <title>concall.online</title>
+  <link rel="icon" type="image/png" href="/index_files/call_info.png" />
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 
@@ -18,7 +19,7 @@
     }
 
     .masthead.segment {
-      min-height: 450px;
+      min-height: 550px;
       padding: 1em 0em;
     }
     .masthead .logo.item img {
@@ -109,12 +110,10 @@
 
 <!-- Page Contents -->
 <div class="pusher">
-  <div class="ui inverted vertical masthead center aligned segment">
 
+  <div class="ui inverted vertical masthead center aligned segment">
     <div class="ui text container" id="gen-link">
-      <h1 class="ui inverted header">
-        concall.online
-      </h1>
+      <img src="./index_files/call_logo.png" class="ui fluid bordered rounded centered image">
       <div class="ui horizontal divider"></div>
       <div class="ui massive primary button" @click="genLinkFunc()">Teams Call NOW</div>
       <div class="ui horizontal divider"></div>
@@ -126,38 +125,18 @@
         </button>
       </div>
     </div>
-
   </div>
 
   <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable grid container">
       <div class="row">
-        <h1 class="ui header">concall.online guide</h1>
-        <div class="ui styled fluid accordion">
-          <div class="active title">
-            <i class="dropdown icon"></i>
-            Step 1
-          </div>
-          <div class="active content">
-            <p>Bla bla bla</p>
-            <img src="./index_files/white-image.png" class="ui large bordered rounded centered image">
-          </div>
-          <div class="title">
-            <i class="dropdown icon"></i>
-            Step 2
-          </div>
-          <div class="content">
-            <p>Bla bla bla</p>
-            <img src="./index_files/white-image.png" class="ui large bordered rounded centered image">
-          </div>
-          <div class="title">
-            <i class="dropdown icon"></i>
-            Step 3
-          </div>
-          <div class="content">
-            <p>Bla bla bla</p>
-            <img src="./index_files/white-image.png" class="ui large bordered rounded centered image">
-          </div>
+        <div class="eight wide column">
+          <h3 class="ui header">We help companies with convenience</h3>
+          <p>Can’t go to the office to work but desperately looking for an instant online meeting with team? We’re here to help! Set up your online meeting on Teams with just few clicks, without being asked to download a plug-in or an application. It’s free of charge for NOW. </p>
+          <p>We provide our service based on Microsoft Teams, one of the most popular workplace communication apps to secure your conversation and bring you convenience. For details, please go to <a href="https://products.office.com/en-us/microsoft-teams/group-chat-software">https://products.office.com/en-us/microsoft-teams/group-chat-software</a>. </p>
+        </div>
+        <div class="six wide right floated column">
+          <img src="./index_files/call_info.png" class="ui large bordered rounded image">
         </div>
       </div>
     </div>
@@ -166,14 +145,32 @@
   <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable grid container">
       <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">We Help Companies and Companions</h3>
-          <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-          <h3 class="ui header">We Make Bananas That Can Dance</h3>
-          <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
-        </div>
-        <div class="six wide right floated column">
-          <img src="./index_files/white-image.png" class="ui large bordered rounded image">
+        <h1 class="ui header">Join the Teams meeting in just 3 steps!</h1>
+        <div class="ui styled fluid accordion">
+          <div class="active title">
+            <i class="dropdown icon"></i>
+            Step 1
+          </div>
+          <div class="active content">
+            <p>Click the button “Teams Call NOW” to generate the link. Copy the Teams conference link to your clipboard. </p>
+            <img src="./index_files/call1.jpg" class="ui fluid bordered rounded centered image">
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Step 2
+          </div>
+          <div class="content">
+            <p>The web browser will open asking to select “Join on the web” or “Download Teams app”, select “Join on the web”, type your name and you’re in the meeting! </p>
+            <img src="./index_files/call2.jpg" class="ui fluid bordered rounded centered image">
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Step 3
+          </div>
+          <div class="content">
+            <p>Nothing more to do instead of having a smooth and great meeting on Teams, anywhere and anytime. Try it out now! </p>
+            <img src="./index_files/call3.jpg" class="ui fluid bordered rounded centered image">
+          </div>
         </div>
       </div>
     </div>
