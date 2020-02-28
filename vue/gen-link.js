@@ -2,7 +2,7 @@ var meetingLink = new Vue({
     el: '#gen-link',
     data: {
       message: '',
-      reqUrl: 'https://concallonline.azurewebsites.net/api/js-genMeetingLink?code=eAzp1A6lgDYhYRtRczs4sBhdpW6OgxP8cKA/RCZFytE5Lzha8Tuqiw==',
+      reqUrl: 'https://concallfunc.azurewebsites.net/api/js-genMeetingLink?code=R29HLI9asSthgh3vEjwpsVM4ItvV2WsNiaYf6gHdfiCSQzeKF9RCgQ==',
       reqBody: {"subject": "Concall Online Meeting"}
     },
     methods:{
